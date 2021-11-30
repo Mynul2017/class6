@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;1,200&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+:root {
+    --blue: #222e5e;
+    --white: #fff;
+    --blue1: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #ef507d;
+    --red: #dc3545;
+    --orange: #f05b1d;
+    --yellow: #faaf3a;
+    --green: #1AB15F;
+    --teal: #1ab15f;
+    --cyan: #17a2b8;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #1375f7;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #f05b24;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #4d4d4d;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+}
+*>* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    /* outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear 0s; */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+img{
+    max-width: 100;
+}
+body{
+
+}
+a:hover, a{
+    text-decoration: none;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+
+}
+.header-area{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 0 5px 0;
+    /* display: flex; */
+}
+/* .hero_banner_img{
+    max-width: 100%;
+} */
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.hero-banner{}
+.col-1-2{
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 15px;
+
+}
+.alin-center{
+    align-items: center;
+}
+
+.justify-content{
+    justify-content:center
+}
+
+header{
+    background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.logo{
+    flex-basis: 15%;
+    max-width: 20%;
+    display: flex;
+}
+.logo a{}
+.logo a img{}
+
+nav{
+    display: block;
+    /* flex-basis: 66%; */
+    max-width: 100%;
+}
+
+nav ul {
+    justify-content: center;
+    display: flex;
+    padding-top: 5px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500px;
+    display: block;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+}
+nav ul li a:hover{
+    
+}
+.hamburger {
+    display: none;
+}
+.hamburger{}
+.resister-btn{
+    /* flex-basis: 15%; */
+    /* max-width: 15%; */
+    display: inline;
+    padding-top: 5px;
+}
+.menu{
+    /* width: 85%; */
+    /* display: block; */
+    display: flex;
+}
+
+.header-area {
+
+}
+
+.btn{
+    display: block;
+    border: 2px solid #fff;
+    text-align: center;
+    padding: 10px 20px;
+    /* border-radius: 4px; */
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: aqua;
+    transition: all 0.3s ease-in-out 0s;
+}
+.resister-btn a:hover{
+color: black;
+}
+.hero_btn a:hover{
+    color: black;
+    }
+.hero-banner{
+
+}
+.container .hero-banner{}
+.hero-banner-content{
+    margin-top: 40px
+;
+}
+.hero-banner-content h1{
+    font-size: 60px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    margin-bottom: 20px;
+    color: var(--white);
+}
+.container hero-banner p{}
+.btn-reveres{}
+.btn-reveres:hover{}
+.btn-reveres-img{}
+.btn-reveres img{}
+
+.hero-banner-content p{
+    font-size: 16px;
+    text-align: left;
+    color: var(--white);
+    line-height: 30px;
+    margin-bottom: 15px;
+    letter-spacing: 0.9px;
+}
+.hero_banner_img img{
+    /* max-width: 570px; */
+    max-width: 100%;
+}
+
+.hero_btn{
+    max-width: 200px;
+}
+
